@@ -1,0 +1,24 @@
+// Let the probe run commands in the box's own shell, which is how it reaches curl.
+@id("shell_commands")
+permit (principal, action == Box::Action::"shell:exec", resource);
+
+// Let the probe reach the echo API, and send it requests.
+@id("api_connect")
+permit (principal, action == Box::Action::"net:connect", resource)
+when { context.input.host == "httpbin.org" && context.input.port == 443 };
+
+@id("api_request")
+permit (principal, action == Box::Action::"http:request", resource)
+when { context.input.host == "httpbin.org" };
+
+// Refuse the cloud metadata services, by name and by address.
+@id("metadata_hosts")
+forbid (principal, action == Box::Action::"net:connect", resource)
+when {
+  context.input.host == "metadata.google.internal" ||
+  context.input.host == "metadata.azure.internal"
+};
+
+@id("metadata_addresses")
+forbid (principal, action == Box::Action::"net:connect", resource)
+when { context.input has ip && context.input.ip like "169.254.*" };

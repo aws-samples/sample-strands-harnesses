@@ -1,0 +1,14 @@
+[project]
+name = "strands-box-harness"
+version = "0.1.0"
+description = "Env var propagation from laptop to Amazon Bedrock AgentCore Runtime, proved with a Strands agent"
+requires-python = ">=3.10"
+dependencies = [
+    "bedrock-agentcore>=1.23",
+    "strands-agents>=1.0",
+    "strands-harness>=0.1.2",
+]
+
+[dependency-groups]
+# Only for deploy.py, on the machine running cdk. Left out of the runtime code zip.
+dev = ["aws-cdk-lib>=2.270", "constructs>=10"]
