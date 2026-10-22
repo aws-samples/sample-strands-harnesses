@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="912" height="628" viewBox="0 0 912 628" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif" aria-label="The software factory from goal to release">
+<defs><marker id="m-o" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FF9900"/></marker><marker id="m-b" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0052CC"/></marker><marker id="m-r" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#de350b"/></marker><marker id="m-d" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker><marker id="m-g" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e7e34"/></marker></defs>
+<text x="0" y="13" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="700">THE SOFTWARE FACTORY: ONE GOAL IN, TESTED CODE AND A RELEASE OUT</text>
+<rect x="0" y="40" width="162" height="238" rx="5" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/>
+<text x="81" y="62" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600">your laptop</text>
+<text x="81" y="75" font-size="8.5" fill="#c9d2de" text-anchor="middle" font-weight="normal">cli.py, ui.py, test.py</text>
+<rect x="7" y="88" width="148" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="81.0" y="100.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">uv run cli.py "goal"</text>
+<rect x="7" y="110" width="148" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="81.0" y="122.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">asks you, 3 stops</text>
+<rect x="7" y="132" width="148" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="81.0" y="144.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">Rich terminal output</text>
+<rect x="7" y="154" width="148" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="81.0" y="166.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">boto3 signs SigV4</text>
+<rect x="7" y="176" width="148" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="81.0" y="188.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">start a stage, then poll</text>
+<rect x="7" y="198" width="148" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="81.0" y="210.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">retries Bedrock errors</text>
+<rect x="7" y="220" width="148" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="81.0" y="232.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">holds the round loop</text>
+<rect x="7" y="242" width="148" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="81.0" y="254.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">unzips out/&lt;work item&gt;/</text>
+<line x1="164" y1="83" x2="186" y2="83" stroke="#FF9900" stroke-width="1.4" marker-end="url(#m-o)"/>
+<text x="175" y="77" font-size="8" fill="#9a5b00" text-anchor="middle" font-weight="600">SigV4</text>
+<rect x="188" y="24" width="724" height="380" rx="8" fill="#f8f9fb" stroke="#dfe1e6" stroke-width="1.2"/>
+<text x="200" y="42" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="700">AMAZON BEDROCK AGENTCORE RUNTIME  ·  ONE microVM PER WORK ITEM</text>
+<text x="200" y="56" font-size="8.5" fill="#44546f" text-anchor="start" font-weight="normal">every call carries runtimeSessionId = sdlc-&lt;uuid&gt;, so every stage lands in the same microVM</text>
+<rect x="200" y="64" width="698" height="36" rx="5" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/>
+<text x="549" y="79" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600">agent.py  ·  @app.entrypoint</text>
+<text x="549" y="93" font-size="8.5" fill="#c9d2de" text-anchor="middle" font-weight="normal">stage: start that agent as a background task  ·  status: new progress  ·  read: one file  ·  bundle: the workspace as a zip</text>
+<rect x="200.0" y="140" width="78" height="50" rx="5" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/>
+<text x="239.0" y="162" font-size="9.5" fill="#ffffff" text-anchor="middle" font-weight="600">1 · Clarify</text>
+<text x="239.0" y="176" font-size="8" fill="#c9d2de" text-anchor="middle" font-weight="normal">clarifier</text>
+<rect x="200.0" y="198" width="78" height="18" rx="9" fill="#e6f0ff" stroke="#b3d4ff" stroke-width="1.2"/>
+<text x="239.0" y="210.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">read only</text>
+<rect x="200.0" y="220" width="78" height="18" rx="9" fill="#e3fcef" stroke="#abf5d1" stroke-width="1.2"/>
+<text x="239.0" y="232.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">questions</text>
+<line x1="278.5" y1="165" x2="285.25" y2="165" stroke="#232F3E" stroke-width="1.2" marker-end="url(#m-d)"/>
+<rect x="285.75" y="140" width="56" height="50" rx="5" fill="#fffae6" stroke="#f5c56b" stroke-width="1.2"/>
+<text x="313.75" y="162" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="600">You</text>
+<text x="313.75" y="176" font-size="8" fill="#44546f" text-anchor="middle" font-weight="normal">answer</text>
+<rect x="285.75" y="198" width="56" height="18" rx="9" fill="#fffae6" stroke="#f5c56b" stroke-width="1.2"/>
+<text x="313.75" y="210.5" font-size="7" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">questions</text>
+<rect x="285.75" y="220" width="56" height="18" rx="9" fill="#fffae6" stroke="#f5c56b" stroke-width="1.2"/>
+<text x="313.75" y="232.5" font-size="7" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">or defaults</text>
+<line x1="342.25" y1="165" x2="349.0" y2="165" stroke="#232F3E" stroke-width="1.2" marker-end="url(#m-d)"/>
+<rect x="349.5" y="140" width="78" height="50" rx="5" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/>
+<text x="388.5" y="162" font-size="9.5" fill="#ffffff" text-anchor="middle" font-weight="600">2 · Plan</text>
+<text x="388.5" y="176" font-size="8" fill="#c9d2de" text-anchor="middle" font-weight="normal">planner</text>
+<rect x="349.5" y="198" width="78" height="18" rx="9" fill="#e6f0ff" stroke="#b3d4ff" stroke-width="1.2"/>
+<text x="388.5" y="210.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">read, write, web</text>
+<rect x="349.5" y="220" width="78" height="18" rx="9" fill="#e3fcef" stroke="#abf5d1" stroke-width="1.2"/>
+<text x="388.5" y="232.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">features, spec</text>
+<line x1="428.0" y1="165" x2="434.75" y2="165" stroke="#232F3E" stroke-width="1.2" marker-end="url(#m-d)"/>
+<rect x="435.25" y="140" width="56" height="50" rx="5" fill="#fffae6" stroke="#f5c56b" stroke-width="1.2"/>
+<text x="463.25" y="162" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="600">You</text>
+<text x="463.25" y="176" font-size="8" fill="#44546f" text-anchor="middle" font-weight="normal">approve</text>
+<rect x="435.25" y="198" width="56" height="18" rx="9" fill="#fffae6" stroke="#f5c56b" stroke-width="1.2"/>
+<text x="463.25" y="210.5" font-size="7" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">features.md</text>
+<rect x="435.25" y="220" width="56" height="18" rx="9" fill="#fffae6" stroke="#f5c56b" stroke-width="1.2"/>
+<text x="463.25" y="232.5" font-size="7" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">yes/no/edits</text>
+<line x1="491.75" y1="165" x2="498.5" y2="165" stroke="#232F3E" stroke-width="1.2" marker-end="url(#m-d)"/>
+<rect x="499.0" y="140" width="78" height="50" rx="5" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/>
+<text x="538.0" y="162" font-size="9.5" fill="#ffffff" text-anchor="middle" font-weight="600">3 · Build</text>
+<text x="538.0" y="176" font-size="8" fill="#c9d2de" text-anchor="middle" font-weight="normal">builder</text>
+<rect x="499.0" y="198" width="78" height="18" rx="9" fill="#e6f0ff" stroke="#b3d4ff" stroke-width="1.2"/>
+<text x="538.0" y="210.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">all tools</text>
+<rect x="499.0" y="220" width="78" height="18" rx="9" fill="#e3fcef" stroke="#abf5d1" stroke-width="1.2"/>
+<text x="538.0" y="232.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">code, README</text>
+<line x1="577.5" y1="165" x2="584.25" y2="165" stroke="#232F3E" stroke-width="1.2" marker-end="url(#m-d)"/>
+<rect x="584.75" y="140" width="78" height="50" rx="5" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/>
+<text x="623.75" y="162" font-size="9.5" fill="#ffffff" text-anchor="middle" font-weight="600">4 · Test</text>
+<text x="623.75" y="176" font-size="8" fill="#c9d2de" text-anchor="middle" font-weight="normal">tester</text>
+<rect x="584.75" y="198" width="78" height="18" rx="9" fill="#e6f0ff" stroke="#b3d4ff" stroke-width="1.2"/>
+<text x="623.75" y="210.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">all tools</text>
+<rect x="584.75" y="220" width="78" height="18" rx="9" fill="#e3fcef" stroke="#abf5d1" stroke-width="1.2"/>
+<text x="623.75" y="232.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">tests, report</text>
+<line x1="663.25" y1="165" x2="670.0" y2="165" stroke="#232F3E" stroke-width="1.2" marker-end="url(#m-d)"/>
+<rect x="670.5" y="140" width="78" height="50" rx="5" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/>
+<text x="709.5" y="162" font-size="9.5" fill="#ffffff" text-anchor="middle" font-weight="600">5 · Review</text>
+<text x="709.5" y="176" font-size="8" fill="#c9d2de" text-anchor="middle" font-weight="normal">reviewer</text>
+<rect x="670.5" y="198" width="78" height="18" rx="9" fill="#e6f0ff" stroke="#b3d4ff" stroke-width="1.2"/>
+<text x="709.5" y="210.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">read, shell</text>
+<rect x="670.5" y="220" width="78" height="18" rx="9" fill="#e3fcef" stroke="#abf5d1" stroke-width="1.2"/>
+<text x="709.5" y="232.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">review.md</text>
+<line x1="749.0" y1="165" x2="755.75" y2="165" stroke="#232F3E" stroke-width="1.2" marker-end="url(#m-d)"/>
+<rect x="756.25" y="140" width="56" height="50" rx="5" fill="#fffae6" stroke="#f5c56b" stroke-width="1.2"/>
+<text x="784.25" y="162" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="600">You</text>
+<text x="784.25" y="176" font-size="8" fill="#44546f" text-anchor="middle" font-weight="normal">release?</text>
+<rect x="756.25" y="198" width="56" height="18" rx="9" fill="#fffae6" stroke="#f5c56b" stroke-width="1.2"/>
+<text x="784.25" y="210.5" font-size="7" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">zip to laptop</text>
+<rect x="756.25" y="220" width="56" height="18" rx="9" fill="#fffae6" stroke="#f5c56b" stroke-width="1.2"/>
+<text x="784.25" y="232.5" font-size="7" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">yes or no</text>
+<line x1="812.75" y1="165" x2="819.5" y2="165" stroke="#232F3E" stroke-width="1.2" marker-end="url(#m-d)"/>
+<rect x="820.0" y="140" width="78" height="50" rx="5" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/>
+<text x="859.0" y="162" font-size="9.5" fill="#ffffff" text-anchor="middle" font-weight="600">6 · Release</text>
+<text x="859.0" y="176" font-size="8" fill="#c9d2de" text-anchor="middle" font-weight="normal">release agent</text>
+<rect x="820.0" y="198" width="78" height="18" rx="9" fill="#e6f0ff" stroke="#b3d4ff" stroke-width="1.2"/>
+<text x="859.0" y="210.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">read,write,shell</text>
+<rect x="820.0" y="220" width="78" height="18" rx="9" fill="#e3fcef" stroke="#abf5d1" stroke-width="1.2"/>
+<text x="859.0" y="232.5" font-size="7.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">release.md</text>
+<path d="M463.25 139 C463.25 118 388.5 118 388.5 139" fill="none" stroke="#8e44ad" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#m-r)"/>
+<text x="425.875" y="116" font-size="8" fill="#8e44ad" text-anchor="middle" font-weight="700">YOUR CHANGES</text>
+<path d="M709.5 139 C709.5 112 538.0 112 538.0 139" fill="none" stroke="#de350b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#m-r)"/>
+<rect x="537.75" y="111" width="172" height="11" fill="#f8f9fb"/>
+<text x="623.75" y="120" font-size="8" fill="#de350b" text-anchor="middle" font-weight="700">REVISION NEEDED · AT MOST 3 ROUNDS</text>
+<text x="239.0" y="132" font-size="8" fill="#6b7a90" text-anchor="middle" font-weight="normal">your goal</text>
+<rect x="200" y="250" width="698" height="18" rx="9" fill="#fffae6" stroke="#f5c56b" stroke-width="1.2"/>
+<text x="549.0" y="262.5" font-size="8.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">/tmp/factory/&lt;work item&gt;   one workspace, read and written by every stage in turn</text>
+<path d="M199 259 L166 259" fill="none" stroke="#1e7e34" stroke-width="1.4" marker-end="url(#m-g)"/>
+<text x="182" y="272" font-size="8" fill="#1e7e34" text-anchor="middle" font-weight="700">zip</text>
+<rect x="200" y="280" width="698" height="96" rx="8" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/>
+<text x="216" y="298" font-size="8.5" fill="#FF9900" text-anchor="start" font-weight="700">GUARDS THAT KEEP A STAGE FROM HANGING</text>
+<text x="216" y="316" font-size="9.5" fill="#ffffff" text-anchor="start" font-weight="normal">A stage never runs a command that does not return. It starts a test server in the background with a timeout.</text>
+<text x="216" y="332" font-size="9.5" fill="#ffffff" text-anchor="start" font-weight="normal">A stage that sends nothing for 10 minutes fails with a reason. No stage runs longer than 80 minutes.</text>
+<text x="216" y="348" font-size="9.5" fill="#ffffff" text-anchor="start" font-weight="normal">An MCP server whose command the runtime does not have is skipped, so it cannot fail every stage.</text>
+<text x="216" y="364" font-size="9.5" fill="#ffffff" text-anchor="start" font-weight="normal">Every tool call is logged and streamed, so a quiet stage still shows what it is running.</text>
+<rect x="188.0" y="428" width="220" height="48" rx="5" fill="#e6f0ff" stroke="#b3d4ff" stroke-width="1.2"/>
+<text x="298.0" y="448" font-size="10" fill="#1a1a2e" text-anchor="middle" font-weight="600">Amazon Bedrock</text>
+<text x="298.0" y="462" font-size="8.5" fill="#44546f" text-anchor="middle" font-weight="normal">Claude Sonnet 5 runs every agent</text>
+<line x1="298.0" y1="406" x2="298.0" y2="426" stroke="#0052CC" stroke-width="1.4" marker-end="url(#m-b)"/>
+<rect x="440.0" y="428" width="220" height="48" rx="5" fill="#e6f0ff" stroke="#b3d4ff" stroke-width="1.2"/>
+<text x="550.0" y="448" font-size="10" fill="#1a1a2e" text-anchor="middle" font-weight="600">AWS MCP Server</text>
+<text x="550.0" y="462" font-size="8.5" fill="#44546f" text-anchor="middle" font-weight="normal">AWS documentation and APIs</text>
+<line x1="550.0" y1="406" x2="550.0" y2="426" stroke="#0052CC" stroke-width="1.4" marker-end="url(#m-b)"/>
+<rect x="692.0" y="428" width="220" height="48" rx="5" fill="#FF9900" stroke="#FF9900" stroke-width="1.2"/>
+<text x="802.0" y="448" font-size="10" fill="#1a1a2e" text-anchor="middle" font-weight="600">Amazon CloudWatch</text>
+<text x="802.0" y="462" font-size="8.5" fill="#44546f" text-anchor="middle" font-weight="normal">metrics, X-Ray traces, logs</text>
+<line x1="802.0" y1="406" x2="802.0" y2="426" stroke="#0052CC" stroke-width="1.4" marker-end="url(#m-b)"/>
+<text x="188" y="492" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="700">THE RUNTIME SIGNS EACH OF THESE CALLS WITH SigV4, AS ITS EXECUTION ROLE</text>
+<path d="M81 280 L81 506 L1054.0 506 L1054.0 478" fill="none" stroke="#FF9900" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#m-o)"/>
+<rect x="92" y="500" width="262" height="12" fill="#ffffff"/>
+<text x="96" y="509" font-size="8" fill="#9a5b00" text-anchor="start" font-weight="normal">cli.py sends its own spans and your decisions too</text>
+<rect x="0" y="518" width="912" height="110" rx="8" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/>
+<text x="16" y="538" font-size="8.5" fill="#FF9900" text-anchor="start" font-weight="700">AGENTIC SDLC AUDIT TRAIL · OPENTELEMETRY · ON BY DEFAULT</text>
+<rect x="16.0" y="548" width="109.9" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="70.95" y="560.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">factory.stage.duration</text>
+<rect x="131.9" y="548" width="101.0" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="182.4" y="560.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">factory.stage.tokens</text>
+<rect x="238.9" y="548" width="101.0" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="289.4" y="560.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">factory.stage.cycles</text>
+<rect x="345.9" y="548" width="92.10000000000001" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="391.95" y="560.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">factory.stage.runs</text>
+<rect x="444.0" y="548" width="114.35000000000001" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="501.175" y="560.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">factory.review.verdicts</text>
+<rect x="564.35" y="548" width="74.30000000000001" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="601.5" y="560.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">factory.rounds</text>
+<rect x="644.6500000000001" y="548" width="123.25" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="706.2750000000001" y="560.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">factory.release.decisions</text>
+<rect x="773.9000000000001" y="548" width="92.10000000000001" height="18" rx="9" fill="#3d5068" stroke="#51657f" stroke-width="1.2"/>
+<text x="819.95" y="560.5" font-size="7.5" fill="#e0e6ed" text-anchor="middle" font-weight="normal" font-family="SFMono-Regular, Menlo, Consolas, monospace">factory.eval.score</text>
+<text x="16" y="586" font-size="9.5" fill="#ffffff" text-anchor="start" font-weight="normal">Metrics go to CloudWatch through its OTLP endpoint, and you query them in Query Studio. Spans factory.run,</text>
+<text x="16" y="602" font-size="9.5" fill="#ffffff" text-anchor="start" font-weight="normal">call.&lt;stage&gt; and stage.&lt;stage&gt; go to X-Ray. Each stage start, tool call, and stage end is a line in the runtime log group.</text>
+<text x="16" y="618" font-size="9.5" fill="#c9d2de" text-anchor="start" font-weight="normal">Every call is signed with SigV4. Nothing issues a token, and no identity provider takes part.</text>
+</svg>

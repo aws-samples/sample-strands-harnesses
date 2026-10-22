@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "rejects-a-stub",
+      "session_id": "48b3d7ba-8efa-4cd4-b082-4d2cad001e0e",
+      "input": "Grade the work and write review.md.",
+      "expected_output": "REVISION NEEDED",
+      "expected_assertion": null,
+      "expected_trajectory": null,
+      "expected_interactions": null,
+      "expected_environment_state": null,
+      "metadata": {
+        "stage": "review",
+        "files": {
+          "spec.md": "# Spec\nOne function, add(a, b), that returns the sum of two numbers.\n",
+          "requirements.md": "- add(1, 2) returns 3\n- add returns a number, never None\n",
+          "calc.py": "def add(a, b):\n    pass  # TODO implement\n",
+          "test-report.md": "I ran no tests.\n"
+        }
+      }
+    },
+    {
+      "name": "approves-finished-work",
+      "session_id": "6fb6407b-4e11-457c-a42d-203c7d34d64e",
+      "input": "Grade the work and write review.md.",
+      "expected_output": "APPROVED",
+      "expected_assertion": null,
+      "expected_trajectory": null,
+      "expected_interactions": null,
+      "expected_environment_state": null,
+      "metadata": {
+        "stage": "review",
+        "files": {
+          "spec.md": "# Spec\nOne function, add(a, b), that returns the sum of two numbers.\n",
+          "requirements.md": "- add(1, 2) returns 3\n- add returns a number, never None\n",
+          "calc.py": "def add(a, b):\n    return a + b\n",
+          "test_calc.py": "from calc import add\n\n\ndef test_add():\n    assert add(1, 2) == 3\n\n\ndef test_add_returns_a_number():\n    result = add(2, 3)\n    assert result is not None\n    assert isinstance(result, (int, float))\n",
+          "test-report.md": "Command: python -m pytest -q\nOutput: 2 passed in 0.01s\n\n- add(1, 2) returns 3: pass, test_add\n- add returns a number, never None: pass, test_add_returns_a_number\n"
+        }
+      }
+    }
+  ],
+  "evaluators": [
+    {
+      "evaluator_type": "VerdictEvaluator"
+    }
+  ]
+}

@@ -16,6 +16,7 @@ own microVM. Chapter 01 explains that choice in its
 | ------- | ------------- |
 | [01 · Simple Strands harness](01-simple-strands-harness/) | A simple Strands harness deployed on AgentCore Runtime, with SigV4 auth and session state |
 | [03 · Strands Box harness](03-strands-box-harness/) | A vendor-held secret (like 1Password) reaches an agent in Strands Box, on a laptop and in AgentCore Runtime, and the agent sees only a placeholder |
+| [05 · Software factory](05-software-factory/) | Six agents turn one product goal into tested code and a release, graded with Strands Evals, and you approve each step |
 
 Every chapter has the same shape. `agent.py` is the code that runs on AgentCore Runtime. `deploy.py`
 builds a code zip and deploys a CDK stack, so you need neither Docker nor Finch. `cli.py` runs on your
@@ -60,6 +61,40 @@ uv run test.py           # seven live checks in AgentCore Runtime
 npx aws-cdk destroy      # remove the stack
 ```
 
+## Chapter 05: the software factory
+
+Chapter 05 turns one product goal into tested code and a release. An example goal is "a task
+tracker MVP with projects, tasks, workflow, assignment and a summary". Six agents run in turn on
+AgentCore Runtime: clarify, plan, build, test, review, and release. The factory stops for you three
+times. You answer its questions, you approve the feature list, and you approve the release. After
+the review, it downloads the code to your laptop as a zip and shows the code in the terminal.
+Every stage writes an OpenTelemetry audit trail to CloudWatch, and every call is signed with SigV4.
+
+To learn the chapter, read these files in order:
+
+1. [architecture.md](05-software-factory/architecture.md) explains what happens when you run the
+   factory and what each component does. It also walks through the code.
+2. [README.md](05-software-factory/README.md) explains how to run the factory, where the code
+   goes, the settings, and the known limits.
+3. The docstring at the top of [evals.py](05-software-factory/evals.py) explains how the agents
+   are graded.
+
+To run the chapter, use these commands:
+
+```bash
+cd 05-software-factory
+uv sync
+uv run deploy.py                           # deploy the SoftwareFactory stack
+uv run cli.py "your product goal here"     # name the app, answer the questions, approve, get the code
+uv run cli.py --apps                       # list your app names
+uv run cli.py --download <app>             # get the code and a local SigV4 URL for the app
+uv run test.py --yes                       # the full cycle on a built-in goal, then the checks
+uv run evals.py                            # grade the agents, about two minutes
+npx aws-cdk destroy                        # remove the stack
+```
+
+A goal with five features takes about 15 to 30 minutes.
+
 ## Prerequisites
 
 You need these items for every chapter:
@@ -69,7 +104,7 @@ You need these items for every chapter:
    account and Region those credentials point to. The examples use `us-west-2`.
 3. A CDK bootstrap in that account and Region. Run `npx aws-cdk bootstrap` once, from any chapter
    folder.
-4. Amazon Bedrock model access in that Region. Chapter 01 uses Claude Sonnet 5 through
+4. Amazon Bedrock model access in that Region. Chapters 01 and 05 use Claude Sonnet 5 through
    `us.anthropic.claude-sonnet-5`, and chapter 03 uses Claude Haiku 5.5 through
    `us.anthropic.claude-haiku-5-5`.
 

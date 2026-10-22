@@ -1,0 +1,23 @@
+[project]
+name = "software-factory"
+version = "0.1.0"
+description = "A Strands harness software factory on Amazon Bedrock AgentCore Runtime"
+requires-python = ">=3.10"
+# Only what agent.py and telemetry.py import. deploy.py ships exactly this list in the
+# runtime code zip, so every package here is uploaded again whenever the code changes.
+dependencies = [
+    "bedrock-agentcore>=1.23",
+    "mcp-proxy-for-aws>=1.7",
+    "strands-agents>=1.0",
+    "strands-harness>=0.1.2",
+]
+
+[dependency-groups]
+# Only on your machine: cdk for deploy.py, and strands-evals for evals.py. Left out of the
+# runtime code zip.
+dev = [
+    "aws-cdk-lib>=2.270",
+    "constructs>=10",
+    "rich>=14",
+    "strands-agents-evals>=1.4.0",
+]

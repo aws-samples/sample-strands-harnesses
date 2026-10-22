@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "name": "goal-becomes-two-files",
+      "session_id": "e1c8a1b0-175c-468a-a39b-294c03b9a5fe",
+      "input": "The product goal is below. Write requirements.md and spec.md.\n\nA command line tool that counts the words in a text file and prints the ten most common words with their counts.",
+      "expected_output": null,
+      "expected_assertion": null,
+      "expected_trajectory": null,
+      "expected_interactions": null,
+      "expected_environment_state": null,
+      "metadata": {
+        "stage": "plan",
+        "files": {}
+      }
+    }
+  ],
+  "evaluators": [
+    {
+      "evaluator_type": "OutputEvaluator",
+      "rubric": "Score 1.0 when the reply reports that both requirements.md and spec.md were written, the\nacceptance criteria are testable one line at a time, and no implementation code was\nwritten. Score 0.5 when one file is missing, or a criterion is not testable. Score 0.0\nwhen the agent wrote code, asked the user a question, or produced no files.",
+      "model": "us.anthropic.claude-sonnet-5"
+    }
+  ]
+}
