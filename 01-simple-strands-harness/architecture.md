@@ -1,6 +1,6 @@
 # Simple Strands harness: architecture
 
-*One agent, one code zip, one runtime. Current as of 24 September 2026.*
+*One agent, one code zip, one runtime.*
 
 Four files do the whole job. `agent.py` is the agent, about eighty lines of
 [Strands Agents](https://strandsagents.com). `deploy.py` is the AWS CDK app that ships it. `cli.py`
