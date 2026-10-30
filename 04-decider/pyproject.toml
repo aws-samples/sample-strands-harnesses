@@ -1,0 +1,16 @@
+[project]
+name = "strands-decider-harness"
+version = "0.1.0"
+description = "A Strands agent whose tool calls are gated by the Strands Decider decision model"
+requires-python = ">=3.11"  # mlx-lm, used by the decider server on Apple silicon, needs 3.11
+dependencies = [
+    "strands-agents>=1.63",
+]
+
+[dependency-groups]
+# The decider server: torch, transformers and the model code. Only needed on the machine that
+# runs `strands-decider serve`, so the agent itself stays light. Pinned to a commit on main,
+# because the mlx extra (Apple-silicon GPU) is not yet in the PyPI release.
+decider = [
+    "strands-decider[mlx] @ git+https://github.com/strands-labs/strands-decider@13faf52",
+]

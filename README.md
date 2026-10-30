@@ -16,12 +16,14 @@ own microVM. Chapter 01 explains that choice in its
 | ------- | ------------- |
 | [01 · Simple Strands harness](01-simple-strands-harness/) | A simple Strands harness deployed on AgentCore Runtime, with SigV4 auth and session state |
 | [03 · Strands Box harness](03-strands-box-harness/) | A vendor-held secret (like 1Password) reaches an agent in Strands Box, on a laptop and in AgentCore Runtime, and the agent sees only a placeholder |
+| [04 · Strands Decider harness](04-decider/) | A small local decision model checks each tool call before it runs, and sends a guessed call back so the agent asks first. Laptop only for now |
 | [05 · Software factory](05-software-factory/) | Six agents turn one product goal into tested code and a release, graded with Strands Evals, and you approve each step |
 
 Every chapter has the same shape. `agent.py` is the code that runs on AgentCore Runtime. `deploy.py`
 builds a code zip and deploys a CDK stack, so you need neither Docker nor Finch. `cli.py` runs on your
 laptop and calls the runtime with your own AWS credentials. `test.py` checks the deployed runtime end
-to end. `architecture.md` explains the design and walks through the code.
+to end. `architecture.md` explains the design and walks through the code. Chapter 04 is the exception
+for now: it runs on your laptop only, so it has `agent.py`, `test.py` and a README, but no deploy yet.
 
 ## Chapter 01: a simple Strands harness
 
