@@ -1,0 +1,18 @@
+<svg viewBox="0 0 912 190" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs><marker id="e1-gr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e7e34"/></marker><marker id="e1-r" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#de350b"/></marker><marker id="e1-d" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker></defs>
+<text x="0" y="13" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="700">EVALS GATE A CHANGE TO THE AGENT BEFORE IT MERGES</text>
+<rect x="0" y="34" width="150" height="44" rx="5" fill="#232F3E"/><text x="75" y="54" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="600">agent change</text><text x="75" y="67" font-size="8" fill="#c9d2de" text-anchor="middle">new prompt, tools, model</text>
+<rect x="196" y="34" width="150" height="44" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="271" y="54" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="600">validate</text><text x="271" y="67" font-size="8" fill="#44546f" text-anchor="middle">schema, before any call</text>
+<rect x="392" y="34" width="150" height="44" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="467" y="54" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="600">run --fail-on</text><text x="467" y="67" font-size="8" fill="#44546f" text-anchor="middle">score each case</text>
+<rect x="588" y="34" width="150" height="44" rx="5" fill="#fffae6" stroke="#f5c56b"/><text x="663" y="54" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="600">threshold met?</text><text x="663" y="67" font-size="8" fill="#9a5b00" text-anchor="middle">e.g. 0.85</text>
+<rect x="784" y="22" width="128" height="30" rx="5" fill="#e3fcef" stroke="#1e7e34"/><text x="848" y="41" font-size="9" fill="#1e7e34" text-anchor="middle" font-weight="700">merge</text>
+<rect x="784" y="60" width="128" height="30" rx="5" fill="#ffffff" stroke="#de350b"/><text x="848" y="79" font-size="9" fill="#de350b" text-anchor="middle" font-weight="700">fail the build</text>
+<line x1="150" y1="56" x2="193" y2="56" stroke="#232F3E" stroke-width="1.4" marker-end="url(#e1-d)"/>
+<line x1="346" y1="56" x2="389" y2="56" stroke="#232F3E" stroke-width="1.4" marker-end="url(#e1-d)"/>
+<line x1="542" y1="56" x2="585" y2="56" stroke="#232F3E" stroke-width="1.4" marker-end="url(#e1-d)"/>
+<line x1="738" y1="48" x2="781" y2="40" stroke="#1e7e34" stroke-width="1.4" marker-end="url(#e1-gr)"/>
+<line x1="738" y1="64" x2="781" y2="72" stroke="#de350b" stroke-width="1.4" marker-end="url(#e1-r)"/>
+<path d="M848 90 C848 130 467 130 467 80" fill="none" stroke="#de350b" stroke-width="1.3" stroke-dasharray="4 3" marker-end="url(#e1-r)"/>
+<text x="657" y="128" font-size="8.5" fill="#de350b" text-anchor="middle" font-weight="700">add the failure as a new case, then re-run</text>
+<text x="0" y="176" font-size="9" fill="#44546f">Evals tests the agent itself, so a prompt or model change cannot lower quality without failing the build.</text>
+</svg>

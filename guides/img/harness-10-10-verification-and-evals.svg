@@ -1,0 +1,127 @@
+<svg viewBox="0 0 912 262" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs><marker id="c10-g" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a96a8"/></marker><marker id="c10-o" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FF9900"/></marker><marker id="c10-b" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0052CC"/></marker><marker id="c10-r" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#de350b"/></marker><marker id="c10-gr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e7e34"/></marker><marker id="c10-d" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker></defs>
+<polygon points="0.0,18.0 111.0,18.0 121.0,32.0 111.0,46.0 0.0,46.0" fill="#edf0f4"/>
+<text x="55.5" y="35.6" font-size="10" fill="#6b7a90" text-anchor="middle" font-weight="normal">Plan</text>
+<polygon points="114.0,18.0 225.0,18.0 235.0,32.0 225.0,46.0 114.0,46.0 124.0,32.0" fill="#edf0f4"/>
+<text x="169.5" y="35.6" font-size="10" fill="#6b7a90" text-anchor="middle" font-weight="normal">Specify</text>
+<polygon points="228.0,18.0 339.0,18.0 349.0,32.0 339.0,46.0 228.0,46.0 238.0,32.0" fill="#edf0f4"/>
+<text x="283.5" y="35.6" font-size="10" fill="#6b7a90" text-anchor="middle" font-weight="normal">Build</text>
+<polygon points="342.0,18.0 453.0,18.0 463.0,32.0 453.0,46.0 342.0,46.0 352.0,32.0" fill="#FF9900"/>
+<text x="397.5" y="35.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Test</text>
+<path d="M392.5 49.0 l5 6 l5 -6 z" fill="#FF9900"/>
+<polygon points="456.0,18.0 567.0,18.0 577.0,32.0 567.0,46.0 456.0,46.0 466.0,32.0" fill="#FF9900"/>
+<text x="511.5" y="35.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Verify</text>
+<path d="M506.5 49.0 l5 6 l5 -6 z" fill="#FF9900"/>
+<polygon points="570.0,18.0 681.0,18.0 691.0,32.0 681.0,46.0 570.0,46.0 580.0,32.0" fill="#FF9900"/>
+<text x="625.5" y="35.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Deploy</text>
+<path d="M620.5 49.0 l5 6 l5 -6 z" fill="#FF9900"/>
+<polygon points="684.0,18.0 795.0,18.0 805.0,32.0 795.0,46.0 684.0,46.0 694.0,32.0" fill="#edf0f4"/>
+<text x="739.5" y="35.6" font-size="10" fill="#6b7a90" text-anchor="middle" font-weight="normal">Eval</text>
+<polygon points="798.0,18.0 909.0,18.0 919.0,32.0 909.0,46.0 798.0,46.0 808.0,32.0" fill="#FF9900"/>
+<text x="853.5" y="35.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Operate</text>
+<path d="M848.5 49.0 l5 6 l5 -6 z" fill="#FF9900"/>
+<path d="M853.5 17.0 C853.5 -1.0 55.5 -1.0 55.5 17.0" fill="none" stroke="#8a96a8" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#c10-g)"/>
+<rect x="338.0" y="-2.0" width="236.0" height="12.0" rx="2" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<text x="456.0" y="7.0" font-size="9" fill="#6b7a90" text-anchor="middle" font-weight="normal">production feedback returns to planning</text>
+<text x="138.0" y="72.0" font-size="8" fill="#6b7a90" text-anchor="middle" font-weight="700">WHERE IT SITS IN THE HARNESS</text>
+<path d="M80.9 178.5 L292 64 L292 252 L80.9 178.5 Z" fill="#FF9900" opacity="0.10"/>
+<line x1="80.9" y1="178.5" x2="292" y2="64" stroke="#FF9900" stroke-width="1" stroke-dasharray="3 3" opacity="0.7"/>
+<line x1="80.9" y1="178.5" x2="292" y2="252" stroke="#FF9900" stroke-width="1" stroke-dasharray="3 3" opacity="0.7"/>
+<path d="M119.1 98.9 A64 64 0 0 1 156.9 98.9 L146.9 131.3 A30 30 0 0 0 129.1 131.3 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="138.0" y="87.5" font-size="9.5" fill="#44546f" text-anchor="middle" font-weight="normal">3 Tools</text>
+<path d="M158.6 99.4 A64 64 0 0 1 189.2 121.7 L162.0 142.0 A30 30 0 0 0 147.7 131.6 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="180.9" y="104.4" font-size="9.5" fill="#44546f" text-anchor="start" font-weight="normal">4 Context</text>
+<path d="M190.3 123.1 A64 64 0 0 1 202.0 159.1 L168.0 159.6 A30 30 0 0 0 162.5 142.7 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="207.4" y="140.9" font-size="9.5" fill="#44546f" text-anchor="start" font-weight="normal">5 Caching</text>
+<path d="M202.0 160.9 A64 64 0 0 1 190.3 196.9 L162.5 177.3 A30 30 0 0 0 168.0 160.4 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="207.4" y="186.1" font-size="9.5" fill="#44546f" text-anchor="start" font-weight="normal">6 Memory</text>
+<path d="M189.2 198.3 A64 64 0 0 1 158.6 220.6 L147.7 188.4 A30 30 0 0 0 162.0 178.0 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="180.9" y="222.6" font-size="9.5" fill="#44546f" text-anchor="start" font-weight="normal">7 Bounds</text>
+<path d="M156.9 221.1 A64 64 0 0 1 119.1 221.1 L129.1 188.7 A30 30 0 0 0 146.9 188.7 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="138.0" y="241.5" font-size="9.5" fill="#44546f" text-anchor="middle" font-weight="normal">8 Agents</text>
+<path d="M117.4 220.6 A64 64 0 0 1 86.8 198.3 L114.0 178.0 A30 30 0 0 0 128.3 188.4 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="95.1" y="222.6" font-size="9.5" fill="#44546f" text-anchor="end" font-weight="normal">9 Sandbox</text>
+<path d="M85.7 196.9 A64 64 0 0 1 74.0 160.9 L108.0 160.4 A30 30 0 0 0 113.5 177.3 Z" fill="#FF9900" stroke="#ffffff" stroke-width="1.6"/>
+<text x="68.6" y="186.1" font-size="9.5" fill="#1a1a2e" text-anchor="end" font-weight="700">10 Evals</text>
+<path d="M74.0 159.1 A64 64 0 0 1 85.7 123.1 L113.5 142.7 A30 30 0 0 0 108.0 159.6 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="68.6" y="140.9" font-size="9.5" fill="#44546f" text-anchor="end" font-weight="normal">11 Cost</text>
+<path d="M86.8 121.7 A64 64 0 0 1 117.4 99.4 L128.3 131.6 A30 30 0 0 0 114.0 142.0 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="95.1" y="104.4" font-size="9.5" fill="#44546f" text-anchor="end" font-weight="normal">12 Observe</text>
+<circle cx="138.0" cy="160.0" r="27" fill="#232F3E"/>
+<text x="138.0" y="159.0" font-size="8.5" fill="#ffffff" text-anchor="middle" font-weight="700">2 Core</text>
+<text x="138.0" y="169.0" font-size="8.5" fill="#ffffff" text-anchor="middle" font-weight="700">loop</text>
+<rect x="292.0" y="62.0" width="620.0" height="192.0" rx="8" fill="#f8f9fb" stroke="#dfe1e6" stroke-width="1.2"/>
+<text x="308.0" y="82.0" font-size="11.5" fill="#1a1a2e" text-anchor="start" font-weight="700">Backpressure inside the loop, evals outside it</text>
+<path d="M488.7 108.6 A68.0 68.0 0 0 1 526.4 136.0" fill="none" stroke="#8a96a8" stroke-width="1.5" marker-end="url(#c10-g)"/>
+<path d="M538.0 171.6 A68.0 68.0 0 0 1 523.6 215.9" fill="none" stroke="#8a96a8" stroke-width="1.5" marker-end="url(#c10-g)"/>
+<path d="M493.3 237.9 A68.0 68.0 0 0 1 446.7 237.9" fill="none" stroke="#8a96a8" stroke-width="1.5" marker-end="url(#c10-g)"/>
+<path d="M416.4 215.9 A68.0 68.0 0 0 1 402.0 171.6" fill="none" stroke="#8a96a8" stroke-width="1.5" marker-end="url(#c10-g)"/>
+<path d="M413.6 136.0 A68.0 68.0 0 0 1 451.3 108.6" fill="none" stroke="#8a96a8" stroke-width="1.5" marker-end="url(#c10-g)"/>
+<rect x="434.0" y="97.0" width="72.0" height="18.0" rx="5" fill="#ffffff" stroke="#dfe1e6" stroke-width="1.2"/>
+<text x="470.0" y="109.2" font-size="9" fill="#1a1a2e" text-anchor="middle" font-weight="600">traces</text>
+<rect x="498.7" y="144.0" width="72.0" height="18.0" rx="5" fill="#ffebe6" stroke="#de350b" stroke-width="1.2"/>
+<text x="534.7" y="156.2" font-size="9" fill="#de350b" text-anchor="middle" font-weight="600">failures</text>
+<rect x="474.0" y="220.0" width="72.0" height="18.0" rx="5" fill="#ffffff" stroke="#dfe1e6" stroke-width="1.2"/>
+<text x="510.0" y="232.3" font-size="9" fill="#1a1a2e" text-anchor="middle" font-weight="600">new tasks</text>
+<rect x="394.0" y="220.0" width="72.0" height="18.0" rx="5" fill="#e6f0ff" stroke="#b3d4ff" stroke-width="1.2"/>
+<text x="430.0" y="232.3" font-size="9" fill="#1a1a2e" text-anchor="middle" font-weight="600">CI suite</text>
+<rect x="369.3" y="144.0" width="72.0" height="18.0" rx="5" fill="#e3fcef" stroke="#1e7e34" stroke-width="1.2"/>
+<text x="405.3" y="156.2" font-size="9" fill="#1e7e34" text-anchor="middle" font-weight="600">deploy</text>
+<path d="M497.4 157.5 A32.0 32.0 0 0 1 497.4 190.5" fill="none" stroke="#232F3E" stroke-width="1.6" marker-end="url(#c10-d)"/>
+<path d="M486.5 201.4 A32.0 32.0 0 0 1 453.5 201.4" fill="none" stroke="#232F3E" stroke-width="1.6" marker-end="url(#c10-d)"/>
+<path d="M442.6 190.5 A32.0 32.0 0 0 1 442.6 157.5" fill="none" stroke="#232F3E" stroke-width="1.6" marker-end="url(#c10-d)"/>
+<path d="M453.5 146.6 A32.0 32.0 0 0 1 486.5 146.6" fill="none" stroke="#232F3E" stroke-width="1.6" marker-end="url(#c10-d)"/>
+<circle cx="492.6" cy="151.4" r="3.6" fill="#FF9900"/>
+<text x="504.6" y="142.4" font-size="8" fill="#9a5b00" text-anchor="middle" font-weight="600">types</text>
+<circle cx="492.6" cy="196.6" r="3.6" fill="#FF9900"/>
+<text x="504.6" y="211.6" font-size="8" fill="#9a5b00" text-anchor="middle" font-weight="600">lint</text>
+<circle cx="447.4" cy="196.6" r="3.6" fill="#FF9900"/>
+<text x="435.4" y="211.6" font-size="8" fill="#9a5b00" text-anchor="middle" font-weight="600">tests</text>
+<circle cx="447.4" cy="151.4" r="3.6" fill="#FF9900"/>
+<text x="435.4" y="142.4" font-size="8" fill="#9a5b00" text-anchor="middle" font-weight="600">interface</text>
+<circle cx="470" cy="174" r="17" fill="#232F3E"/>
+<text x="470.0" y="177.5" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="700">agent</text>
+<text x="316.0" y="118.0" font-size="8.5" fill="#1a1a2e" text-anchor="start" font-weight="700">outer loop:</text>
+<text x="316.0" y="129.0" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="normal">evals, every</text>
+<text x="316.0" y="140.0" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="normal">release</text>
+<text x="316.0" y="204.0" font-size="8.5" fill="#1a1a2e" text-anchor="start" font-weight="700">inner loop:</text>
+<text x="316.0" y="215.0" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="normal">gates, every</text>
+<text x="316.0" y="226.0" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="normal">change</text>
+<text x="646.0" y="104.0" font-size="9.5" fill="#1a1a2e" text-anchor="start" font-weight="700">Success rate of 75% per trial</text>
+<line x1="646" y1="222.0" x2="884" y2="222.0" stroke="#dfe1e6" stroke-width="1"/>
+<text x="641.0" y="225.0" font-size="8.5" fill="#6b7a90" text-anchor="end" font-weight="normal">0%</text>
+<line x1="646" y1="167.0" x2="884" y2="167.0" stroke="#dfe1e6" stroke-width="1"/>
+<text x="641.0" y="170.0" font-size="8.5" fill="#6b7a90" text-anchor="end" font-weight="normal">50%</text>
+<line x1="646" y1="112.0" x2="884" y2="112.0" stroke="#dfe1e6" stroke-width="1"/>
+<text x="641.0" y="115.0" font-size="8.5" fill="#6b7a90" text-anchor="end" font-weight="normal">100%</text>
+<polyline points="646.0,139.5 672.4,118.9 698.9,113.7 725.3,112.4 751.8,112.1 778.2,112.0 804.7,112.0 831.1,112.0 857.6,112.0 884.0,112.0" fill="none" stroke="#0052CC" stroke-width="2"/>
+<circle cx="646.0" cy="139.5" r="2.4" fill="#0052CC"/>
+<circle cx="672.4" cy="118.9" r="2.4" fill="#0052CC"/>
+<circle cx="698.9" cy="113.7" r="2.4" fill="#0052CC"/>
+<circle cx="725.3" cy="112.4" r="2.4" fill="#0052CC"/>
+<circle cx="751.8" cy="112.1" r="2.4" fill="#0052CC"/>
+<circle cx="778.2" cy="112.0" r="2.4" fill="#0052CC"/>
+<circle cx="804.7" cy="112.0" r="2.4" fill="#0052CC"/>
+<circle cx="831.1" cy="112.0" r="2.4" fill="#0052CC"/>
+<circle cx="857.6" cy="112.0" r="2.4" fill="#0052CC"/>
+<circle cx="884.0" cy="112.0" r="2.4" fill="#0052CC"/>
+<polyline points="646.0,139.5 672.4,160.1 698.9,175.6 725.3,187.2 751.8,195.9 778.2,202.4 804.7,207.3 831.1,211.0 857.6,213.7 884.0,215.8" fill="none" stroke="#FF9900" stroke-width="2"/>
+<circle cx="646.0" cy="139.5" r="2.4" fill="#FF9900"/>
+<circle cx="672.4" cy="160.1" r="2.4" fill="#FF9900"/>
+<circle cx="698.9" cy="175.6" r="2.4" fill="#FF9900"/>
+<circle cx="725.3" cy="187.2" r="2.4" fill="#FF9900"/>
+<circle cx="751.8" cy="195.9" r="2.4" fill="#FF9900"/>
+<circle cx="778.2" cy="202.4" r="2.4" fill="#FF9900"/>
+<circle cx="804.7" cy="207.3" r="2.4" fill="#FF9900"/>
+<circle cx="831.1" cy="211.0" r="2.4" fill="#FF9900"/>
+<circle cx="857.6" cy="213.7" r="2.4" fill="#FF9900"/>
+<circle cx="884.0" cy="215.8" r="2.4" fill="#FF9900"/>
+<text x="884.0" y="128.0" font-size="8.5" fill="#0052CC" text-anchor="end" font-weight="700">pass@k: at least one passes</text>
+<text x="778.2" y="194.4" font-size="8.5" fill="#9a5b00" text-anchor="start" font-weight="700">pass^k: all k pass</text>
+<circle cx="698.9" cy="175.6" r="4.5" fill="none" stroke="#9a5b00" stroke-width="1.5"/>
+<text x="691.9" y="179.6" font-size="8.5" fill="#9a5b00" text-anchor="end" font-weight="700">42% at k = 3</text>
+<text x="646.0" y="234.0" font-size="8.5" fill="#6b7a90" text-anchor="middle" font-weight="normal">1</text>
+<text x="751.8" y="234.0" font-size="8.5" fill="#6b7a90" text-anchor="middle" font-weight="normal">5</text>
+<text x="884.0" y="234.0" font-size="8.5" fill="#6b7a90" text-anchor="middle" font-weight="normal">10</text>
+<text x="765.0" y="246.0" font-size="8.5" fill="#6b7a90" text-anchor="middle" font-weight="normal">trials, k</text>
+</svg>

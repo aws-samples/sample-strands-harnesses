@@ -1,0 +1,27 @@
+<svg viewBox="0 0 912 210" xmlns="http://www.w3.org/2000/svg" role="img">
+<text x="0" y="13" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="700">LAYERS OF RUNTIME CONTROL &#8212; SOFT NUDGE ON THE LEFT, HARD STOP ON THE RIGHT</text>
+<defs><linearGradient id="g-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1e7e34"/><stop offset="1" stop-color="#de350b"/></linearGradient></defs>
+<rect x="0" y="30" width="912" height="6" rx="3" fill="url(#g-grad)"/>
+<text x="0" y="52" font-size="8" fill="#1e7e34" font-weight="700">GUIDE THE MODEL</text><text x="912" y="52" font-size="8" fill="#de350b" font-weight="700" text-anchor="end">BLOCK THE ACTION</text>
+<rect x="0" y="64" width="172" height="110" rx="8" fill="#f8f9fb" stroke="#dfe1e6"/>
+<text x="86" y="84" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="700">Steering</text>
+<text x="86" y="104" font-size="8.5" fill="#44546f" text-anchor="middle">evaluate a response,</text><text x="86" y="117" font-size="8.5" fill="#44546f" text-anchor="middle">feed correction,</text><text x="86" y="130" font-size="8.5" fill="#44546f" text-anchor="middle">let it retry</text>
+<text x="86" y="158" font-size="8" fill="#6b7a90" text-anchor="middle">stays in the lines</text>
+<rect x="185" y="64" width="172" height="110" rx="8" fill="#f8f9fb" stroke="#dfe1e6"/>
+<text x="271" y="84" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="700">Hooks</text>
+<text x="271" y="104" font-size="8.5" fill="#44546f" text-anchor="middle">subscribe to loop</text><text x="271" y="117" font-size="8.5" fill="#44546f" text-anchor="middle">lifecycle events;</text><text x="271" y="130" font-size="8.5" fill="#44546f" text-anchor="middle">observe or alter</text>
+<text x="271" y="158" font-size="8" fill="#6b7a90" text-anchor="middle">no core code change</text>
+<rect x="370" y="64" width="172" height="110" rx="8" fill="#fffae6" stroke="#f5c56b"/>
+<text x="456" y="84" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="700">Interventions</text>
+<text x="456" y="104" font-size="8.5" fill="#44546f" text-anchor="middle">pause before a risky</text><text x="456" y="117" font-size="8.5" fill="#44546f" text-anchor="middle">call (push, publish),</text><text x="456" y="130" font-size="8.5" fill="#44546f" text-anchor="middle">ask a human</text>
+<text x="456" y="158" font-size="8" fill="#9a5b00" text-anchor="middle">human in the loop</text>
+<rect x="555" y="64" width="172" height="110" rx="8" fill="#232F3E"/>
+<text x="641" y="84" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700">Agent Control</text>
+<text x="641" y="104" font-size="8.5" fill="#c9d2de" text-anchor="middle">rules evaluate every</text><text x="641" y="117" font-size="8.5" fill="#c9d2de" text-anchor="middle">input and output;</text><text x="641" y="130" font-size="8.5" fill="#c9d2de" text-anchor="middle">deny raises, blocks</text>
+<text x="641" y="158" font-size="8" fill="#9dbcf0" text-anchor="middle">runtime control plane</text>
+<rect x="740" y="64" width="172" height="110" rx="8" fill="#232F3E"/>
+<text x="826" y="84" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="700">AgentCore Policy</text>
+<text x="826" y="104" font-size="8.5" fill="#c9d2de" text-anchor="middle">declarative agent-to-</text><text x="826" y="117" font-size="8.5" fill="#c9d2de" text-anchor="middle">tool access control</text><text x="826" y="130" font-size="8.5" fill="#c9d2de" text-anchor="middle">at the tool gateway</text>
+<text x="826" y="158" font-size="8" fill="#9dbcf0" text-anchor="middle">hard outer boundary</text>
+<text x="456" y="198" font-size="9" fill="#44546f" text-anchor="middle">Combine them: steering keeps a well-behaved agent on track; a hard policy or deny rule stops a misbehaving one.</text>
+</svg>

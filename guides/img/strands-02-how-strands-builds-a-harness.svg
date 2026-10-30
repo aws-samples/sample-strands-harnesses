@@ -1,0 +1,106 @@
+<svg viewBox="0 0 922 262" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs><marker id="top-g" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a96a8"/></marker></defs>
+<polygon points="0,34 111,34 121,48 111,62 0,62" fill="#FF9900"/>
+<text x="55.5" y="51.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Plan</text>
+<rect x="0" y="72" width="111" height="104" rx="6" fill="#f8f9fb" stroke="#dfe1e6"/>
+<rect x="5" y="79" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="55.5" y="91.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">create_harness planner</text>
+<rect x="5" y="103" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="55.5" y="115.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">read-only built-ins</text>
+<rect x="5" y="127" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="55.5" y="139.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">Agent SOPs</text>
+<rect x="5" y="151" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="55.5" y="163.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">Agent Skills</text>
+<polygon points="114,34 225,34 235,48 225,62 114,62 124,48" fill="#FF9900"/>
+<text x="169.5" y="51.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Specify</text>
+<rect x="114" y="72" width="111" height="104" rx="6" fill="#f8f9fb" stroke="#dfe1e6"/>
+<rect x="119" y="79" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="169.5" y="91.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">structured output</text>
+<rect x="119" y="103" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="169.5" y="115.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">Pydantic contracts</text>
+<rect x="119" y="127" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="169.5" y="139.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">instructions=</text>
+<rect x="119" y="151" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="169.5" y="163.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">eval cases (JSON)</text>
+<polygon points="228,34 339,34 349,48 339,62 228,62 238,48" fill="#FF9900"/>
+<text x="283.5" y="51.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Build</text>
+<rect x="228" y="72" width="111" height="104" rx="6" fill="#f8f9fb" stroke="#dfe1e6"/>
+<rect x="233" y="79" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="283.5" y="91.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">Agent() &#183; @tool</text>
+<rect x="233" y="103" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="283.5" y="115.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">MCP &#183; vended tools</text>
+<rect x="233" y="127" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="283.5" y="139.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">20+ model providers</text>
+<rect x="233" y="151" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="283.5" y="163.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">Swarm &#183; Graph &#183; A2A</text>
+<polygon points="342,34 453,34 463,48 453,62 342,62 352,48" fill="#FF9900"/>
+<text x="397.5" y="51.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Test</text>
+<rect x="342" y="72" width="111" height="104" rx="6" fill="#f8f9fb" stroke="#dfe1e6"/>
+<rect x="347" y="79" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="397.5" y="91.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">DockerSandbox</text>
+<rect x="347" y="103" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="397.5" y="115.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">Strands Box (local)</text>
+<rect x="347" y="127" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="397.5" y="139.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">evals validate</text>
+<rect x="347" y="151" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="397.5" y="163.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">stream_async view</text>
+<polygon points="456,34 567,34 577,48 567,62 456,62 466,48" fill="#FF9900"/>
+<text x="511.5" y="51.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Verify</text>
+<rect x="456" y="72" width="111" height="104" rx="6" fill="#f8f9fb" stroke="#dfe1e6"/>
+<rect x="461" y="79" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="511.5" y="91.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">run --fail-on 0.85</text>
+<rect x="461" y="103" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="511.5" y="115.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">score threshold</text>
+<rect x="461" y="127" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="511.5" y="139.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">steering feedback</text>
+<rect x="461" y="151" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="511.5" y="163.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">interventions</text>
+<polygon points="570,34 681,34 691,48 681,62 570,62 580,48" fill="#FF9900"/>
+<text x="625.5" y="51.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Deploy</text>
+<rect x="570" y="72" width="111" height="104" rx="6" fill="#f8f9fb" stroke="#dfe1e6"/>
+<rect x="575" y="79" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="625.5" y="91.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">BedrockAgentCoreApp</text>
+<rect x="575" y="103" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="625.5" y="115.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">agentcore deploy</text>
+<rect x="575" y="127" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="625.5" y="139.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">microVM per session</text>
+<rect x="575" y="151" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="625.5" y="163.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">SigV4 or JWT</text>
+<polygon points="684,34 795,34 805,48 795,62 684,62 694,48" fill="#FF9900"/>
+<text x="739.5" y="51.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Eval</text>
+<rect x="684" y="72" width="111" height="104" rx="6" fill="#f8f9fb" stroke="#dfe1e6"/>
+<rect x="689" y="79" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="739.5" y="91.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">strands-evals run</text>
+<rect x="689" y="103" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="739.5" y="115.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">OpenTelemetry traces</text>
+<rect x="689" y="127" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="739.5" y="139.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">regression report</text>
+<rect x="689" y="151" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="739.5" y="163.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">failure &#8594; new case</text>
+<polygon points="798,34 909,34 919,48 909,62 798,62 808,48" fill="#FF9900"/>
+<text x="853.5" y="51.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Operate</text>
+<rect x="798" y="72" width="111" height="104" rx="6" fill="#f8f9fb" stroke="#dfe1e6"/>
+<rect x="803" y="79" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="853.5" y="91.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">SessionManager</text>
+<rect x="803" y="103" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="853.5" y="115.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">EventLoopMetrics</text>
+<rect x="803" y="127" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="853.5" y="139.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">Limits (budget caps)</text>
+<rect x="803" y="151" width="101" height="19" rx="4" fill="#e6f0ff" stroke="#b3d4ff"/>
+<text x="853.5" y="163.6" font-size="7.6" fill="#1a1a2e" text-anchor="middle">context manager</text>
+<path d="M853.5 33 C853.5 13 55.5 13 55.5 33" fill="none" stroke="#8a96a8" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#top-g)"/>
+<rect x="338" y="8" width="236" height="12" rx="2" fill="#ffffff"/>
+<text x="456" y="17" font-size="9" fill="#6b7a90" text-anchor="middle">production feedback returns to planning</text>
+<rect x="0" y="188" width="919" height="62" rx="6" fill="#232F3E"/>
+<text x="12" y="206" font-size="8.5" fill="#FF9900" font-weight="700">SECURE: RUNS UNDER EVERY PHASE</text>
+<rect x="12" y="216" width="175" height="22" rx="4" fill="#3d5068"/>
+<text x="99.5" y="230.5" font-size="8.5" fill="#e0e6ed" text-anchor="middle">hooks</text>
+<rect x="192" y="216" width="175" height="22" rx="4" fill="#3d5068"/>
+<text x="279.5" y="230.5" font-size="8.5" fill="#e0e6ed" text-anchor="middle">Agent Control deny rules</text>
+<rect x="372" y="216" width="175" height="22" rx="4" fill="#3d5068"/>
+<text x="459.5" y="230.5" font-size="8.5" fill="#e0e6ed" text-anchor="middle">AgentCore Policy at the gateway</text>
+<rect x="552" y="216" width="175" height="22" rx="4" fill="#3d5068"/>
+<text x="639.5" y="230.5" font-size="8.5" fill="#e0e6ed" text-anchor="middle">Strands Box with Dogwood policy</text>
+<rect x="732" y="216" width="175" height="22" rx="4" fill="#3d5068"/>
+<text x="819.5" y="230.5" font-size="8.5" fill="#e0e6ed" text-anchor="middle">IAM roles, SigV4 signing</text>
+</svg>

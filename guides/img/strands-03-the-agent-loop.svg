@@ -1,0 +1,18 @@
+<svg viewBox="0 0 912 252" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs><marker id="l1-d" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker><marker id="l1-o" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FF9900"/></marker><marker id="l1-b" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0052CC"/></marker></defs>
+<text x="0" y="13" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="700">ONE CYCLE OF THE AGENT LOOP</text>
+<rect x="0" y="30" width="150" height="48" rx="5" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/><text x="75" y="50" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600">conversation</text><text x="75" y="63" font-size="8.5" fill="#c9d2de" text-anchor="middle">messages + prompt</text>
+<rect x="222" y="30" width="150" height="48" rx="5" fill="#e6f0ff" stroke="#b3d4ff" stroke-width="1.2"/><text x="297" y="50" font-size="10" fill="#1a1a2e" text-anchor="middle" font-weight="600">model</text><text x="297" y="63" font-size="8.5" fill="#44546f" text-anchor="middle">answer or tool call</text>
+<rect x="444" y="30" width="150" height="48" rx="5" fill="#e6f0ff" stroke="#b3d4ff" stroke-width="1.2"/><text x="519" y="50" font-size="10" fill="#1a1a2e" text-anchor="middle" font-weight="600">tools</text><text x="519" y="63" font-size="8.5" fill="#44546f" text-anchor="middle">run in parallel, async</text>
+<rect x="666" y="30" width="150" height="48" rx="5" fill="#232F3E" stroke="#232F3E" stroke-width="1.2"/><text x="741" y="50" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="600">results appended</text><text x="741" y="63" font-size="8.5" fill="#c9d2de" text-anchor="middle">back to conversation</text>
+<line x1="150" y1="54" x2="219" y2="54" stroke="#232F3E" stroke-width="1.4" marker-end="url(#l1-d)"/>
+<line x1="372" y1="54" x2="441" y2="54" stroke="#0052CC" stroke-width="1.4" marker-end="url(#l1-b)"/>
+<line x1="594" y1="54" x2="663" y2="54" stroke="#0052CC" stroke-width="1.4" marker-end="url(#l1-b)"/>
+<path d="M741 80 V110 H75 V80" fill="none" stroke="#FF9900" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#l1-o)"/>
+<rect x="320" y="101" width="176" height="16" rx="8" fill="#ffffff"/><text x="408" y="113" font-size="8.5" fill="#9a5b00" text-anchor="middle" font-weight="700">recurse while the model asks for tools</text>
+<rect x="0" y="140" width="912" height="100" rx="8" fill="#f8f9fb" stroke="#dfe1e6" stroke-width="1.2"/>
+<text x="16" y="160" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="700">THE LOOP ALSO OWNS</text>
+<text x="16" y="182" font-size="10" fill="#1a1a2e" text-anchor="start">Error handling and recovery &#183; per-invocation budget caps &#183; metrics on every cycle &#183; context-overflow detection.</text>
+<text x="16" y="202" font-size="10" fill="#1a1a2e" text-anchor="start">The model decides when to stop by returning a final answer instead of a tool call. You supply the model, the</text>
+<text x="16" y="218" font-size="10" fill="#1a1a2e" text-anchor="start">tools, and the prompt. You do not write the control flow. Every event is streamed as it happens.</text>
+</svg>

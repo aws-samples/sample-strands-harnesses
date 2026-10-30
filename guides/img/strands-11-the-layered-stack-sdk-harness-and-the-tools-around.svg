@@ -1,0 +1,18 @@
+<svg viewBox="0 0 912 240" xmlns="http://www.w3.org/2000/svg" role="img">
+<text x="0" y="13" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="700">THE STACK: EACH LAYER SITS ON THE ONE BELOW, AND YOU CAN STOP AT ANY LEVEL</text>
+<rect x="120" y="150" width="672" height="40" rx="6" fill="#34465c"/><text x="456" y="168" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">Strands SDK</text><text x="456" y="182" font-size="8.5" fill="#c9d2de" text-anchor="middle">agent loop &#183; tools &#183; context &#183; sessions &#183; memory &#183; hooks &#183; interventions &#183; multi-agent</text>
+<rect x="200" y="100" width="512" height="40" rx="6" fill="#0052CC"/><text x="456" y="118" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">Strands Harness</text><text x="456" y="132" font-size="8.5" fill="#dbe6ff" text-anchor="middle">create_harness(): tuned defaults, built-in tools, one plain Agent out</text>
+<rect x="286" y="50" width="340" height="40" rx="6" fill="#FF9900"/><text x="456" y="68" font-size="10" fill="#1a1a2e" text-anchor="middle" font-weight="700">your agent</text><text x="456" y="82" font-size="8.5" fill="#4a3200" text-anchor="middle">a few lines of configuration</text>
+<line x1="456" y1="90" x2="456" y2="100" stroke="#8a96a8" stroke-width="1.2"/><line x1="456" y1="140" x2="456" y2="150" stroke="#8a96a8" stroke-width="1.2"/>
+<rect x="0" y="50" width="130" height="140" rx="8" fill="#f8f9fb" stroke="#dfe1e6"/>
+<text x="65" y="68" font-size="8.5" fill="#6b7a90" text-anchor="middle" font-weight="700">ALONGSIDE</text>
+<rect x="12" y="78" width="106" height="28" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="65" y="92" font-size="8.5" fill="#1a1a2e" text-anchor="middle">Agent Skills</text><text x="65" y="102" font-size="7.5" fill="#44546f" text-anchor="middle">on-disk know-how</text>
+<rect x="12" y="112" width="106" height="28" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="65" y="126" font-size="8.5" fill="#1a1a2e" text-anchor="middle">Strands Evals</text><text x="65" y="136" font-size="7.5" fill="#44546f" text-anchor="middle">gate agent changes</text>
+<rect x="12" y="146" width="106" height="28" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="65" y="160" font-size="8.5" fill="#1a1a2e" text-anchor="middle">Agent SOPs</text><text x="65" y="170" font-size="7.5" fill="#44546f" text-anchor="middle">NL workflows</text>
+<rect x="782" y="50" width="130" height="140" rx="8" fill="#f8f9fb" stroke="#dfe1e6"/>
+<text x="847" y="68" font-size="8.5" fill="#6b7a90" text-anchor="middle" font-weight="700">RUNS ON</text>
+<rect x="794" y="90" width="106" height="34" rx="5" fill="#232F3E"/><text x="847" y="106" font-size="8.5" fill="#fff" text-anchor="middle">your laptop</text><text x="847" y="118" font-size="7.5" fill="#c9d2de" text-anchor="middle">local dev</text>
+<rect x="794" y="130" width="106" height="34" rx="5" fill="#232F3E"/><text x="847" y="146" font-size="8.5" fill="#FF9900" text-anchor="middle">AgentCore</text><text x="847" y="158" font-size="7.5" fill="#c9d2de" text-anchor="middle">Runtime (hosted)</text>
+<text x="456" y="214" font-size="9.5" fill="#44546f" text-anchor="middle">Build on the harness for speed, or on the raw SDK for an unusual shape. The same agent runs on your laptop</text>
+<text x="456" y="230" font-size="9.5" fill="#44546f" text-anchor="middle">and in AgentCore Runtime; only where the loop runs and who signs the calls changes.</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 912 250" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs><marker id="m1-b" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0052CC"/></marker></defs>
+<text x="0" y="13" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="700">ONE Model INTERFACE, MANY PROVIDERS &#8212; SWAP THE MODEL, KEEP THE AGENT</text>
+<rect x="356" y="30" width="200" height="40" rx="5" fill="#232F3E"/><text x="456" y="50" font-size="10" fill="#fff" text-anchor="middle" font-weight="600">your agent code</text><text x="456" y="63" font-size="8.5" fill="#c9d2de" text-anchor="middle">tools and logic unchanged</text>
+<rect x="356" y="86" width="200" height="26" rx="5" fill="#FF9900"/><text x="456" y="103" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="700">Model interface</text>
+<line x1="456" y1="70" x2="456" y2="84" stroke="#232F3E" stroke-width="1.4"/>
+<rect x="20" y="150" width="130" height="24" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="85" y="166" font-size="8.5" fill="#1a1a2e" text-anchor="middle">Amazon Bedrock</text>
+<rect x="160" y="150" width="130" height="24" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="225" y="166" font-size="8.5" fill="#1a1a2e" text-anchor="middle">Anthropic</text>
+<rect x="300" y="150" width="130" height="24" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="365" y="166" font-size="8.5" fill="#1a1a2e" text-anchor="middle">OpenAI / Responses</text>
+<rect x="440" y="150" width="130" height="24" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="505" y="166" font-size="8.5" fill="#1a1a2e" text-anchor="middle">Google</text>
+<rect x="580" y="150" width="130" height="24" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="645" y="166" font-size="8.5" fill="#1a1a2e" text-anchor="middle">Mistral &#183; Writer</text>
+<rect x="720" y="150" width="172" height="24" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="806" y="166" font-size="8.5" fill="#1a1a2e" text-anchor="middle">Ollama &#183; llama.cpp (local)</text>
+<rect x="20" y="182" width="130" height="24" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="85" y="198" font-size="8.5" fill="#1a1a2e" text-anchor="middle">SageMaker</text>
+<rect x="160" y="182" width="130" height="24" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="225" y="198" font-size="8.5" fill="#1a1a2e" text-anchor="middle">LiteLLM (gateway)</text>
+<rect x="300" y="182" width="130" height="24" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="365" y="198" font-size="8.5" fill="#1a1a2e" text-anchor="middle">Amazon Nova</text>
+<rect x="440" y="182" width="130" height="24" rx="5" fill="#fffae6" stroke="#f5c56b"/><text x="505" y="198" font-size="8.5" fill="#1a1a2e" text-anchor="middle">NVIDIA NIM, vLLM, xAI</text>
+<rect x="580" y="182" width="130" height="24" rx="5" fill="#fffae6" stroke="#f5c56b"/><text x="645" y="198" font-size="8.5" fill="#1a1a2e" text-anchor="middle">+ community set</text>
+<rect x="720" y="182" width="172" height="24" rx="5" fill="#f8f9fb" stroke="#dfe1e6" stroke-dasharray="4 3"/><text x="806" y="198" font-size="8.5" fill="#44546f" text-anchor="middle">custom (implement Model)</text>
+<line x1="456" y1="112" x2="456" y2="134" stroke="#0052CC" stroke-width="1.4"/><line x1="90" y1="134" x2="822" y2="134" stroke="#8a96a8" stroke-width="1"/>
+<line x1="90" y1="134" x2="85" y2="148" stroke="#0052CC" stroke-width="1" marker-end="url(#m1-b)"/><line x1="456" y1="134" x2="456" y2="148" stroke="#0052CC" stroke-width="1" marker-end="url(#m1-b)"/><line x1="822" y1="134" x2="806" y2="148" stroke="#0052CC" stroke-width="1" marker-end="url(#m1-b)"/>
+<text x="20" y="228" font-size="8" fill="#6b7a90" font-weight="700">SOLID = first-party</text><text x="200" y="228" font-size="8" fill="#9a5b00" font-weight="700">AMBER = community</text><text x="390" y="228" font-size="8" fill="#6b7a90" font-weight="700">DASHED = write your own</text>
+<text x="640" y="228" font-size="9" fill="#44546f">Streaming, tool calling, structured output: same on every first-party provider.</text>
+</svg>

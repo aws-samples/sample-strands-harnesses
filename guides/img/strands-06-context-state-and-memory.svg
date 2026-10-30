@@ -1,0 +1,26 @@
+<svg viewBox="0 0 912 250" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs><marker id="ctx-o" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FF9900"/></marker></defs>
+<text x="0" y="13" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="700">THREE KINDS OF STATE, AND WHAT KEEPS EACH IN BOUNDS</text>
+<rect x="0" y="28" width="288" height="150" rx="8" fill="#f8f9fb" stroke="#dfe1e6"/>
+<text x="144" y="48" font-size="10" fill="#1a1a2e" text-anchor="middle" font-weight="700">Conversation</text>
+<text x="144" y="64" font-size="8.5" fill="#44546f" text-anchor="middle">the running message list</text>
+<rect x="24" y="78" width="240" height="22" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="144" y="93" font-size="8.5" fill="#1a1a2e" text-anchor="middle">sliding window: keep recent, drop old</text>
+<rect x="24" y="106" width="240" height="22" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="144" y="121" font-size="8.5" fill="#1a1a2e" text-anchor="middle">summarizing: replace old with a summary</text>
+<rect x="24" y="134" width="240" height="22" rx="5" fill="#e6f0ff" stroke="#b3d4ff"/><text x="144" y="149" font-size="8.5" fill="#1a1a2e" text-anchor="middle">null: leave it untouched</text>
+<text x="144" y="170" font-size="8" fill="#6b7a90" text-anchor="middle">managed so it never overflows the window</text>
+<rect x="312" y="28" width="288" height="150" rx="8" fill="#f8f9fb" stroke="#dfe1e6"/>
+<text x="456" y="48" font-size="10" fill="#1a1a2e" text-anchor="middle" font-weight="700">Agent state</text>
+<text x="456" y="64" font-size="8.5" fill="#44546f" text-anchor="middle">structured data outside the chat</text>
+<rect x="336" y="82" width="240" height="26" rx="5" fill="#232F3E"/><text x="456" y="99" font-size="8.5" fill="#fff" text-anchor="middle">work item id, user profile, counters</text>
+<text x="456" y="128" font-size="8.5" fill="#44546f" text-anchor="middle">tools read and write it</text>
+<text x="456" y="144" font-size="8.5" fill="#44546f" text-anchor="middle">costs no context tokens</text>
+<rect x="624" y="28" width="288" height="150" rx="8" fill="#232F3E"/>
+<text x="768" y="48" font-size="10" fill="#FF9900" text-anchor="middle" font-weight="700">Sessions (durable)</text>
+<text x="768" y="64" font-size="8.5" fill="#c9d2de" text-anchor="middle">persist both, restore after a restart</text>
+<rect x="648" y="82" width="110" height="26" rx="5" fill="#3d5068"/><text x="703" y="99" font-size="8.5" fill="#e0e6ed" text-anchor="middle">filesystem</text>
+<rect x="766" y="82" width="122" height="26" rx="5" fill="#3d5068"/><text x="827" y="99" font-size="8.5" fill="#e0e6ed" text-anchor="middle">Amazon S3</text>
+<rect x="648" y="116" width="240" height="26" rx="5" fill="#3d5068"/><text x="768" y="133" font-size="8.5" fill="#e0e6ed" text-anchor="middle">your own backend (DAO pattern)</text>
+<text x="768" y="162" font-size="8" fill="#c9d2de" text-anchor="middle">give it a session id; persistence is automatic</text>
+<text x="456" y="206" font-size="9.5" fill="#44546f" text-anchor="middle">Conversation and agent state are per-run working memory. A session is the datastore that lets a run survive a</text>
+<text x="456" y="222" font-size="9.5" fill="#44546f" text-anchor="middle">crash, a restart, or a scaling event and resume exactly where it left off.</text>
+</svg>

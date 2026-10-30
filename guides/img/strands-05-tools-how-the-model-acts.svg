@@ -1,0 +1,14 @@
+<svg viewBox="0 0 912 220" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs><marker id="t1-b" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0052CC"/></marker></defs>
+<text x="0" y="13" font-size="8.5" fill="#6b7a90" text-anchor="start" font-weight="700">FOUR WAYS TO GIVE AN AGENT TOOLS &#8212; THE MODEL CHOOSES WHEN TO CALL EACH</text>
+<rect x="356" y="90" width="200" height="40" rx="5" fill="#FF9900"/><text x="456" y="110" font-size="10" fill="#1a1a2e" text-anchor="middle" font-weight="700">the agent</text><text x="456" y="123" font-size="8.5" fill="#4a3200" text-anchor="middle">model picks a tool each cycle</text>
+<rect x="20" y="40" width="190" height="48" rx="6" fill="#e6f0ff" stroke="#b3d4ff"/><text x="115" y="60" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="600">1. Your functions</text><text x="115" y="75" font-size="8.5" fill="#44546f" text-anchor="middle">@tool + docstring &#8594; schema</text>
+<rect x="20" y="132" width="190" height="48" rx="6" fill="#e6f0ff" stroke="#b3d4ff"/><text x="115" y="152" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="600">2. Vended tools</text><text x="115" y="167" font-size="8.5" fill="#44546f" text-anchor="middle">shell, file_editor, web_fetch</text>
+<rect x="702" y="40" width="190" height="48" rx="6" fill="#e6f0ff" stroke="#b3d4ff"/><text x="797" y="60" font-size="9.5" fill="#1a1a2e" text-anchor="middle" font-weight="600">3. MCP servers</text><text x="797" y="75" font-size="8.5" fill="#44546f" text-anchor="middle">any server, local or remote</text>
+<rect x="702" y="132" width="190" height="48" rx="6" fill="#232F3E"/><text x="797" y="152" font-size="9.5" fill="#fff" text-anchor="middle" font-weight="600">4. Other agents</text><text x="797" y="167" font-size="8.5" fill="#c9d2de" text-anchor="middle">a specialist wrapped as a tool</text>
+<line x1="210" y1="64" x2="354" y2="104" stroke="#0052CC" stroke-width="1.4" marker-end="url(#t1-b)"/>
+<line x1="210" y1="156" x2="354" y2="116" stroke="#0052CC" stroke-width="1.4" marker-end="url(#t1-b)"/>
+<line x1="702" y1="64" x2="558" y2="104" stroke="#0052CC" stroke-width="1.4" marker-end="url(#t1-b)"/>
+<line x1="702" y1="156" x2="558" y2="116" stroke="#8a96a8" stroke-width="1.4" marker-end="url(#t1-b)"/>
+<text x="456" y="165" font-size="8.5" fill="#44546f" text-anchor="middle">no glue code: every source</text><text x="456" y="178" font-size="8.5" fill="#44546f" text-anchor="middle">appears as one tool list</text>
+</svg>

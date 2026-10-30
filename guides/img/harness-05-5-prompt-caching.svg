@@ -1,0 +1,106 @@
+<svg viewBox="0 0 912 262" xmlns="http://www.w3.org/2000/svg" role="img">
+<defs><marker id="c5-g" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a96a8"/></marker><marker id="c5-o" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#FF9900"/></marker><marker id="c5-b" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0052CC"/></marker><marker id="c5-r" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#de350b"/></marker><marker id="c5-gr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1e7e34"/></marker><marker id="c5-d" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker></defs>
+<polygon points="0.0,18.0 111.0,18.0 121.0,32.0 111.0,46.0 0.0,46.0" fill="#FF9900"/>
+<text x="55.5" y="35.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Plan</text>
+<path d="M50.5 49.0 l5 6 l5 -6 z" fill="#FF9900"/>
+<polygon points="114.0,18.0 225.0,18.0 235.0,32.0 225.0,46.0 114.0,46.0 124.0,32.0" fill="#FF9900"/>
+<text x="169.5" y="35.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Specify</text>
+<path d="M164.5 49.0 l5 6 l5 -6 z" fill="#FF9900"/>
+<polygon points="228.0,18.0 339.0,18.0 349.0,32.0 339.0,46.0 228.0,46.0 238.0,32.0" fill="#FF9900"/>
+<text x="283.5" y="35.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Build</text>
+<path d="M278.5 49.0 l5 6 l5 -6 z" fill="#FF9900"/>
+<polygon points="342.0,18.0 453.0,18.0 463.0,32.0 453.0,46.0 342.0,46.0 352.0,32.0" fill="#FF9900"/>
+<text x="397.5" y="35.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Test</text>
+<path d="M392.5 49.0 l5 6 l5 -6 z" fill="#FF9900"/>
+<polygon points="456.0,18.0 567.0,18.0 577.0,32.0 567.0,46.0 456.0,46.0 466.0,32.0" fill="#FF9900"/>
+<text x="511.5" y="35.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Verify</text>
+<path d="M506.5 49.0 l5 6 l5 -6 z" fill="#FF9900"/>
+<polygon points="570.0,18.0 681.0,18.0 691.0,32.0 681.0,46.0 570.0,46.0 580.0,32.0" fill="#FF9900"/>
+<text x="625.5" y="35.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Deploy</text>
+<path d="M620.5 49.0 l5 6 l5 -6 z" fill="#FF9900"/>
+<polygon points="684.0,18.0 795.0,18.0 805.0,32.0 795.0,46.0 684.0,46.0 694.0,32.0" fill="#edf0f4"/>
+<text x="739.5" y="35.6" font-size="10" fill="#6b7a90" text-anchor="middle" font-weight="normal">Eval</text>
+<polygon points="798.0,18.0 909.0,18.0 919.0,32.0 909.0,46.0 798.0,46.0 808.0,32.0" fill="#FF9900"/>
+<text x="853.5" y="35.6" font-size="10" fill="#232F3E" text-anchor="middle" font-weight="700">Operate</text>
+<path d="M848.5 49.0 l5 6 l5 -6 z" fill="#FF9900"/>
+<path d="M853.5 17.0 C853.5 -1.0 55.5 -1.0 55.5 17.0" fill="none" stroke="#8a96a8" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#c5-g)"/>
+<rect x="338.0" y="-2.0" width="236.0" height="12.0" rx="2" fill="#ffffff" stroke="none" stroke-width="1.2"/>
+<text x="456.0" y="7.0" font-size="9" fill="#6b7a90" text-anchor="middle" font-weight="normal">production feedback returns to planning</text>
+<text x="138.0" y="72.0" font-size="8" fill="#6b7a90" text-anchor="middle" font-weight="700">WHERE IT SITS IN THE HARNESS</text>
+<path d="M195.1 141.5 L292 64 L292 252 L195.1 141.5 Z" fill="#FF9900" opacity="0.10"/>
+<line x1="195.1" y1="141.5" x2="292" y2="64" stroke="#FF9900" stroke-width="1" stroke-dasharray="3 3" opacity="0.7"/>
+<line x1="195.1" y1="141.5" x2="292" y2="252" stroke="#FF9900" stroke-width="1" stroke-dasharray="3 3" opacity="0.7"/>
+<path d="M119.1 98.9 A64 64 0 0 1 156.9 98.9 L146.9 131.3 A30 30 0 0 0 129.1 131.3 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="138.0" y="87.5" font-size="9.5" fill="#44546f" text-anchor="middle" font-weight="normal">3 Tools</text>
+<path d="M158.6 99.4 A64 64 0 0 1 189.2 121.7 L162.0 142.0 A30 30 0 0 0 147.7 131.6 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="180.9" y="104.4" font-size="9.5" fill="#44546f" text-anchor="start" font-weight="normal">4 Context</text>
+<path d="M190.3 123.1 A64 64 0 0 1 202.0 159.1 L168.0 159.6 A30 30 0 0 0 162.5 142.7 Z" fill="#FF9900" stroke="#ffffff" stroke-width="1.6"/>
+<text x="207.4" y="140.9" font-size="9.5" fill="#1a1a2e" text-anchor="start" font-weight="700">5 Caching</text>
+<path d="M202.0 160.9 A64 64 0 0 1 190.3 196.9 L162.5 177.3 A30 30 0 0 0 168.0 160.4 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="207.4" y="186.1" font-size="9.5" fill="#44546f" text-anchor="start" font-weight="normal">6 Memory</text>
+<path d="M189.2 198.3 A64 64 0 0 1 158.6 220.6 L147.7 188.4 A30 30 0 0 0 162.0 178.0 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="180.9" y="222.6" font-size="9.5" fill="#44546f" text-anchor="start" font-weight="normal">7 Bounds</text>
+<path d="M156.9 221.1 A64 64 0 0 1 119.1 221.1 L129.1 188.7 A30 30 0 0 0 146.9 188.7 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="138.0" y="241.5" font-size="9.5" fill="#44546f" text-anchor="middle" font-weight="normal">8 Agents</text>
+<path d="M117.4 220.6 A64 64 0 0 1 86.8 198.3 L114.0 178.0 A30 30 0 0 0 128.3 188.4 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="95.1" y="222.6" font-size="9.5" fill="#44546f" text-anchor="end" font-weight="normal">9 Sandbox</text>
+<path d="M85.7 196.9 A64 64 0 0 1 74.0 160.9 L108.0 160.4 A30 30 0 0 0 113.5 177.3 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="68.6" y="186.1" font-size="9.5" fill="#44546f" text-anchor="end" font-weight="normal">10 Evals</text>
+<path d="M74.0 159.1 A64 64 0 0 1 85.7 123.1 L113.5 142.7 A30 30 0 0 0 108.0 159.6 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="68.6" y="140.9" font-size="9.5" fill="#44546f" text-anchor="end" font-weight="normal">11 Cost</text>
+<path d="M86.8 121.7 A64 64 0 0 1 117.4 99.4 L128.3 131.6 A30 30 0 0 0 114.0 142.0 Z" fill="#e3e8ef" stroke="#ffffff" stroke-width="1.6"/>
+<text x="95.1" y="104.4" font-size="9.5" fill="#44546f" text-anchor="end" font-weight="normal">12 Observe</text>
+<circle cx="138.0" cy="160.0" r="27" fill="#232F3E"/>
+<text x="138.0" y="159.0" font-size="8.5" fill="#ffffff" text-anchor="middle" font-weight="700">2 Core</text>
+<text x="138.0" y="169.0" font-size="8.5" fill="#ffffff" text-anchor="middle" font-weight="700">loop</text>
+<rect x="292.0" y="62.0" width="620.0" height="192.0" rx="8" fill="#f8f9fb" stroke="#dfe1e6" stroke-width="1.2"/>
+<text x="308.0" y="82.0" font-size="11.5" fill="#1a1a2e" text-anchor="start" font-weight="700">The prefix repeats on every turn, so cache it</text>
+<text x="455.0" y="106.0" font-size="8.5" fill="#6b7a90" text-anchor="middle" font-weight="normal">system</text>
+<text x="530.0" y="106.0" font-size="8.5" fill="#6b7a90" text-anchor="middle" font-weight="normal">tools</text>
+<text x="595.0" y="106.0" font-size="8.5" fill="#6b7a90" text-anchor="middle" font-weight="normal">memory</text>
+<text x="665.0" y="106.0" font-size="8.5" fill="#6b7a90" text-anchor="middle" font-weight="normal">conversation</text>
+<text x="730.0" y="106.0" font-size="8.5" fill="#6b7a90" text-anchor="middle" font-weight="normal">retrieval</text>
+<text x="316.0" y="123.0" font-size="9" fill="#44546f" text-anchor="start" font-weight="normal">Turn 1</text>
+<rect x="420.0" y="112.0" width="68.5" height="14.0" rx="2" fill="#8a96a8" stroke="none" stroke-width="1.2"/>
+<rect x="490.0" y="112.0" width="78.5" height="14.0" rx="2" fill="#8a96a8" stroke="none" stroke-width="1.2"/>
+<rect x="570.0" y="112.0" width="48.5" height="14.0" rx="2" fill="#8a96a8" stroke="none" stroke-width="1.2"/>
+<rect x="620.0" y="112.0" width="28.5" height="14.0" rx="2" fill="#8a96a8" stroke="none" stroke-width="1.2"/>
+<rect x="710.0" y="112.0" width="38.5" height="14.0" rx="2" fill="#8a96a8" stroke="none" stroke-width="1.2"/>
+<text x="760.0" y="123.0" font-size="9" fill="#6b7a90" text-anchor="start" font-weight="600">computed, cache written</text>
+<text x="316.0" y="143.0" font-size="9" fill="#44546f" text-anchor="start" font-weight="normal">Turn 2</text>
+<rect x="420.0" y="132.0" width="68.5" height="14.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<rect x="490.0" y="132.0" width="78.5" height="14.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<rect x="570.0" y="132.0" width="48.5" height="14.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<rect x="620.0" y="132.0" width="28.5" height="14.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<rect x="650.0" y="132.0" width="28.5" height="14.0" rx="2" fill="#8a96a8" stroke="none" stroke-width="1.2"/>
+<rect x="710.0" y="132.0" width="38.5" height="14.0" rx="2" fill="#8a96a8" stroke="none" stroke-width="1.2"/>
+<text x="760.0" y="143.0" font-size="9" fill="#1e7e34" text-anchor="start" font-weight="600">prefix hit</text>
+<text x="316.0" y="163.0" font-size="9" fill="#44546f" text-anchor="start" font-weight="normal">Turn 3</text>
+<rect x="420.0" y="152.0" width="68.5" height="14.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<rect x="490.0" y="152.0" width="78.5" height="14.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<rect x="570.0" y="152.0" width="48.5" height="14.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<rect x="620.0" y="152.0" width="58.5" height="14.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<rect x="680.0" y="152.0" width="28.5" height="14.0" rx="2" fill="#8a96a8" stroke="none" stroke-width="1.2"/>
+<rect x="710.0" y="152.0" width="38.5" height="14.0" rx="2" fill="#8a96a8" stroke="none" stroke-width="1.2"/>
+<text x="760.0" y="163.0" font-size="9" fill="#1e7e34" text-anchor="start" font-weight="600">longer prefix hit</text>
+<text x="316.0" y="183.0" font-size="9" fill="#44546f" text-anchor="start" font-weight="normal">After compaction</text>
+<rect x="420.0" y="172.0" width="68.5" height="14.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<rect x="490.0" y="172.0" width="78.5" height="14.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<rect x="570.0" y="172.0" width="48.5" height="14.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<rect x="620.0" y="172.0" width="43.5" height="14.0" rx="2" fill="#de350b" stroke="none" stroke-width="1.2"/>
+<rect x="710.0" y="172.0" width="38.5" height="14.0" rx="2" fill="#8a96a8" stroke="none" stroke-width="1.2"/>
+<text x="760.0" y="183.0" font-size="9" fill="#de350b" text-anchor="start" font-weight="600">miss after the rewrite</text>
+<text x="316.0" y="213.0" font-size="9" fill="#44546f" text-anchor="start" font-weight="normal">Timestamp in prompt</text>
+<rect x="420.0" y="202.0" width="68.5" height="14.0" rx="2" fill="#de350b" stroke="none" stroke-width="1.2"/>
+<rect x="490.0" y="202.0" width="78.5" height="14.0" rx="2" fill="#de350b" stroke="none" stroke-width="1.2"/>
+<rect x="570.0" y="202.0" width="48.5" height="14.0" rx="2" fill="#de350b" stroke="none" stroke-width="1.2"/>
+<rect x="620.0" y="202.0" width="58.5" height="14.0" rx="2" fill="#de350b" stroke="none" stroke-width="1.2"/>
+<rect x="710.0" y="202.0" width="38.5" height="14.0" rx="2" fill="#de350b" stroke="none" stroke-width="1.2"/>
+<text x="760.0" y="213.0" font-size="9" fill="#de350b" text-anchor="start" font-weight="600">miss on every turn</text>
+<rect x="420.0" y="232.0" width="12.0" height="10.0" rx="2" fill="#1e7e34" stroke="none" stroke-width="1.2"/>
+<text x="436.0" y="241.0" font-size="9" fill="#44546f" text-anchor="start" font-weight="normal">cache hit</text>
+<rect x="516.0" y="232.0" width="12.0" height="10.0" rx="2" fill="#8a96a8" stroke="none" stroke-width="1.2"/>
+<text x="532.0" y="241.0" font-size="9" fill="#44546f" text-anchor="start" font-weight="normal">computed</text>
+<rect x="612.0" y="232.0" width="12.0" height="10.0" rx="2" fill="#de350b" stroke="none" stroke-width="1.2"/>
+<text x="628.0" y="241.0" font-size="9" fill="#44546f" text-anchor="start" font-weight="normal">cache miss</text>
+</svg>
